@@ -1,0 +1,15 @@
+Executing prepublish script 'npm run vscode:prepublish'...
+
+> diagramador-arquitectura-3d@1.0.0 vscode:prepublish
+> npm run package
+
+
+> diagramador-arquitectura-3d@1.0.0 package
+> esbuild ./src/extension.ts --bundle --outfile=out/extension.js --external:vscode --format=cjs --platform=node
+
+
+  out\extension.js  3.9kb
+
+Done in 5ms
+ ERROR  Extension entrypoint(s) missing. Make sure these files exist and aren't ignored by '.vscodeignore':
+  extension/dist/extension.js

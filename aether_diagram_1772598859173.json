@@ -1,0 +1,1213 @@
+{
+  "schemaVersion": 1,
+  "meta": {
+    "id": "ed1f28b1-b1aa-4d59-addc-a7c7df84d54a",
+    "title": "Aether Diagram",
+    "createdAt": "2026-03-04T04:34:19.173Z",
+    "updatedAt": "2026-03-04T04:34:19.173Z"
+  },
+  "canvas": {
+    "background": "#0b1220",
+    "grid": {
+      "size": 1,
+      "enabled": true
+    },
+    "snap": {
+      "enabled": true,
+      "size": 0.5
+    }
+  },
+  "camera": {
+    "type": "ortho",
+    "zoom": 1,
+    "position": [
+      10,
+      10,
+      10
+    ],
+    "target": [
+      0,
+      0.4,
+      0
+    ]
+  },
+  "nodes": [
+    {
+      "id": "yuhuq5r846a",
+      "type": "core",
+      "category": "architecture",
+      "position": {
+        "x": 0,
+        "y": 7,
+        "z": 0
+      },
+      "size": {
+        "x": 4.2,
+        "y": 0.85,
+        "z": 2.2
+      },
+      "label": "📦 IAAS (node)",
+      "style": {
+        "variant": "default",
+        "colorToken": "#1f2937"
+      }
+    },
+    {
+      "id": "jl19vkegazl",
+      "type": "module",
+      "category": "architecture",
+      "position": {
+        "x": 4,
+        "y": 1,
+        "z": 0
+      },
+      "size": {
+        "x": 2.8,
+        "y": 0.85,
+        "z": 1.8
+      },
+      "label": "AppCronograma (7)",
+      "style": {
+        "variant": "default",
+        "colorToken": "#1e3a5f"
+      }
+    },
+    {
+      "id": "2xp2bdz08lc",
+      "type": "module",
+      "category": "architecture",
+      "position": {
+        "x": 8,
+        "y": 1,
+        "z": 0
+      },
+      "size": {
+        "x": 2.4,
+        "y": 0.7,
+        "z": 1.6
+      },
+      "label": "dev-dist",
+      "style": {
+        "variant": "default",
+        "colorToken": "#1e3a5f"
+      }
+    },
+    {
+      "id": "8bp8wmljni6",
+      "type": "service",
+      "category": "architecture",
+      "position": {
+        "x": 12,
+        "y": 3.5,
+        "z": 0
+      },
+      "size": {
+        "x": 2.1,
+        "y": 0.7,
+        "z": 1.5
+      },
+      "label": "eslint.config.js",
+      "style": {
+        "variant": "default",
+        "colorToken": "#78350f"
+      }
+    },
+    {
+      "id": "gu3d7la4f0m",
+      "type": "service",
+      "category": "architecture",
+      "position": {
+        "x": 16,
+        "y": 3.5,
+        "z": 0
+      },
+      "size": {
+        "x": 2.1,
+        "y": 0.7,
+        "z": 1.5
+      },
+      "label": "postcss.config.js",
+      "style": {
+        "variant": "default",
+        "colorToken": "#78350f"
+      }
+    },
+    {
+      "id": "608pxvxa0qh",
+      "type": "module",
+      "category": "architecture",
+      "position": {
+        "x": 20,
+        "y": 1,
+        "z": 0
+      },
+      "size": {
+        "x": 2.4,
+        "y": 0.7,
+        "z": 1.6
+      },
+      "label": "scripts",
+      "style": {
+        "variant": "default",
+        "colorToken": "#1e3a5f"
+      }
+    },
+    {
+      "id": "w05ihbmzju",
+      "type": "module",
+      "category": "architecture",
+      "position": {
+        "x": 0,
+        "y": 1,
+        "z": 4
+      },
+      "size": {
+        "x": 2.4,
+        "y": 0.7,
+        "z": 1.6
+      },
+      "label": "src",
+      "style": {
+        "variant": "default",
+        "colorToken": "#1e3a5f"
+      }
+    },
+    {
+      "id": "pjbzt3yiwvq",
+      "type": "service",
+      "category": "architecture",
+      "position": {
+        "x": 4,
+        "y": 3.5,
+        "z": 4
+      },
+      "size": {
+        "x": 2.1,
+        "y": 0.7,
+        "z": 1.5
+      },
+      "label": "tailwind.config.js",
+      "style": {
+        "variant": "default",
+        "colorToken": "#78350f"
+      }
+    },
+    {
+      "id": "ug2jffg3v1f",
+      "type": "service",
+      "category": "architecture",
+      "position": {
+        "x": 8,
+        "y": 3.5,
+        "z": 4
+      },
+      "size": {
+        "x": 2.1,
+        "y": 0.7,
+        "z": 1.5
+      },
+      "label": "vite.config.ts",
+      "style": {
+        "variant": "default",
+        "colorToken": "#78350f"
+      }
+    },
+    {
+      "id": "yvyq71kbmah",
+      "type": "module",
+      "category": "architecture",
+      "position": {
+        "x": 12,
+        "y": 1,
+        "z": 4
+      },
+      "size": {
+        "x": 2.8,
+        "y": 0.85,
+        "z": 1.8
+      },
+      "label": "appVotaciones (3)",
+      "style": {
+        "variant": "default",
+        "colorToken": "#1e3a5f"
+      }
+    },
+    {
+      "id": "4u8nal910ti",
+      "type": "service",
+      "category": "architecture",
+      "position": {
+        "x": 16,
+        "y": 3.5,
+        "z": 4
+      },
+      "size": {
+        "x": 2.1,
+        "y": 0.7,
+        "z": 1.5
+      },
+      "label": "eslint.config.js",
+      "style": {
+        "variant": "default",
+        "colorToken": "#78350f"
+      }
+    },
+    {
+      "id": "v0lq5l7lke",
+      "type": "module",
+      "category": "architecture",
+      "position": {
+        "x": 20,
+        "y": 1,
+        "z": 4
+      },
+      "size": {
+        "x": 2.4,
+        "y": 0.7,
+        "z": 1.6
+      },
+      "label": "src",
+      "style": {
+        "variant": "default",
+        "colorToken": "#1e3a5f"
+      }
+    },
+    {
+      "id": "dn09c2oq8k6",
+      "type": "service",
+      "category": "architecture",
+      "position": {
+        "x": 0,
+        "y": 3.5,
+        "z": 8
+      },
+      "size": {
+        "x": 2.1,
+        "y": 0.7,
+        "z": 1.5
+      },
+      "label": "vite.config.ts",
+      "style": {
+        "variant": "default",
+        "colorToken": "#78350f"
+      }
+    },
+    {
+      "id": "wz1nwlzhezg",
+      "type": "module",
+      "category": "architecture",
+      "position": {
+        "x": 4,
+        "y": 3.5,
+        "z": 8
+      },
+      "size": {
+        "x": 2.1,
+        "y": 0.7,
+        "z": 1.5
+      },
+      "label": "eslint.config.js",
+      "style": {
+        "variant": "default",
+        "colorToken": "#78350f"
+      }
+    },
+    {
+      "id": "smvrjoo2v6",
+      "type": "module",
+      "category": "architecture",
+      "position": {
+        "x": 8,
+        "y": 1,
+        "z": 8
+      },
+      "size": {
+        "x": 2.8,
+        "y": 0.85,
+        "z": 1.8
+      },
+      "label": "src (6)",
+      "style": {
+        "variant": "default",
+        "colorToken": "#1e3a5f"
+      }
+    },
+    {
+      "id": "v987ufzpbr",
+      "type": "service",
+      "category": "architecture",
+      "position": {
+        "x": 12,
+        "y": 1,
+        "z": 8
+      },
+      "size": {
+        "x": 2.1,
+        "y": 0.7,
+        "z": 1.5
+      },
+      "label": "App.tsx",
+      "style": {
+        "variant": "default",
+        "colorToken": "#1e3a5f"
+      }
+    },
+    {
+      "id": "ia93ixmp8y",
+      "type": "db",
+      "category": "architecture",
+      "position": {
+        "x": 16,
+        "y": 0.5,
+        "z": 8
+      },
+      "size": {
+        "x": 2.4,
+        "y": 0.7,
+        "z": 1.6
+      },
+      "label": "db",
+      "style": {
+        "variant": "default",
+        "colorToken": "#1e1b4b"
+      }
+    },
+    {
+      "id": "5pmx2jqmoyo",
+      "type": "service",
+      "category": "architecture",
+      "position": {
+        "x": 20,
+        "y": 1,
+        "z": 8
+      },
+      "size": {
+        "x": 2.1,
+        "y": 0.7,
+        "z": 1.5
+      },
+      "label": "main.tsx",
+      "style": {
+        "variant": "default",
+        "colorToken": "#1e3a5f"
+      }
+    },
+    {
+      "id": "5emjidpot6w",
+      "type": "external",
+      "category": "architecture",
+      "position": {
+        "x": 0,
+        "y": 5,
+        "z": 12
+      },
+      "size": {
+        "x": 2.4,
+        "y": 0.7,
+        "z": 1.6
+      },
+      "label": "pages",
+      "style": {
+        "variant": "default",
+        "colorToken": "#4c1d95"
+      }
+    },
+    {
+      "id": "wyog1hl18v",
+      "type": "module",
+      "category": "architecture",
+      "position": {
+        "x": 4,
+        "y": 2,
+        "z": 12
+      },
+      "size": {
+        "x": 2.4,
+        "y": 0.7,
+        "z": 1.6
+      },
+      "label": "utils",
+      "style": {
+        "variant": "default",
+        "colorToken": "#1e3a5f"
+      }
+    },
+    {
+      "id": "sv65ulxjlh",
+      "type": "service",
+      "category": "architecture",
+      "position": {
+        "x": 8,
+        "y": 1,
+        "z": 12
+      },
+      "size": {
+        "x": 2.1,
+        "y": 0.7,
+        "z": 1.5
+      },
+      "label": "vite-env.d.ts",
+      "style": {
+        "variant": "default",
+        "colorToken": "#1e3a5f"
+      }
+    },
+    {
+      "id": "rbkarx5tyv",
+      "type": "module",
+      "category": "architecture",
+      "position": {
+        "x": 12,
+        "y": 3.5,
+        "z": 12
+      },
+      "size": {
+        "x": 2.1,
+        "y": 0.7,
+        "z": 1.5
+      },
+      "label": "vite.config.ts",
+      "style": {
+        "variant": "default",
+        "colorToken": "#78350f"
+      }
+    },
+    {
+      "id": "b3bmk8qh4o9",
+      "type": "external",
+      "category": "architecture",
+      "position": {
+        "x": 16,
+        "y": -1,
+        "z": 12
+      },
+      "size": {
+        "x": 2.1,
+        "y": 0.6,
+        "z": 1.2
+      },
+      "label": "📦 @tailwindcss/vite",
+      "style": {
+        "variant": "default",
+        "colorToken": "#4c1d95"
+      }
+    },
+    {
+      "id": "x4qfm6xar0p",
+      "type": "external",
+      "category": "architecture",
+      "position": {
+        "x": 20,
+        "y": -1,
+        "z": 12
+      },
+      "size": {
+        "x": 2.1,
+        "y": 0.6,
+        "z": 1.2
+      },
+      "label": "📦 firebase",
+      "style": {
+        "variant": "default",
+        "colorToken": "#4c1d95"
+      }
+    },
+    {
+      "id": "91yx8xkhc6g",
+      "type": "external",
+      "category": "architecture",
+      "position": {
+        "x": 0,
+        "y": -1,
+        "z": 16
+      },
+      "size": {
+        "x": 2.1,
+        "y": 0.6,
+        "z": 1.2
+      },
+      "label": "📦 firebase-admin",
+      "style": {
+        "variant": "default",
+        "colorToken": "#4c1d95"
+      }
+    },
+    {
+      "id": "eyur89sr77",
+      "type": "external",
+      "category": "architecture",
+      "position": {
+        "x": 4,
+        "y": -1,
+        "z": 16
+      },
+      "size": {
+        "x": 2.1,
+        "y": 0.6,
+        "z": 1.2
+      },
+      "label": "📦 lucide-react",
+      "style": {
+        "variant": "default",
+        "colorToken": "#4c1d95"
+      }
+    },
+    {
+      "id": "7m8ktc9n59h",
+      "type": "external",
+      "category": "architecture",
+      "position": {
+        "x": 8,
+        "y": -1,
+        "z": 16
+      },
+      "size": {
+        "x": 2.1,
+        "y": 0.6,
+        "z": 1.2
+      },
+      "label": "📦 papaparse",
+      "style": {
+        "variant": "default",
+        "colorToken": "#4c1d95"
+      }
+    },
+    {
+      "id": "rslv7lew47",
+      "type": "external",
+      "category": "architecture",
+      "position": {
+        "x": 12,
+        "y": -1,
+        "z": 16
+      },
+      "size": {
+        "x": 2.1,
+        "y": 0.6,
+        "z": 1.2
+      },
+      "label": "📦 react",
+      "style": {
+        "variant": "default",
+        "colorToken": "#4c1d95"
+      }
+    },
+    {
+      "id": "23lqmn5x8y2",
+      "type": "external",
+      "category": "architecture",
+      "position": {
+        "x": 16,
+        "y": -1,
+        "z": 16
+      },
+      "size": {
+        "x": 2.1,
+        "y": 0.6,
+        "z": 1.2
+      },
+      "label": "📦 react-dom",
+      "style": {
+        "variant": "default",
+        "colorToken": "#4c1d95"
+      }
+    },
+    {
+      "id": "42qb6nsu021",
+      "type": "external",
+      "category": "architecture",
+      "position": {
+        "x": 20,
+        "y": -1,
+        "z": 16
+      },
+      "size": {
+        "x": 2.1,
+        "y": 0.6,
+        "z": 1.2
+      },
+      "label": "📦 react-router-dom",
+      "style": {
+        "variant": "default",
+        "colorToken": "#4c1d95"
+      }
+    },
+    {
+      "id": "3xal1em0syj",
+      "type": "external",
+      "category": "architecture",
+      "position": {
+        "x": 0,
+        "y": -1,
+        "z": 20
+      },
+      "size": {
+        "x": 2.1,
+        "y": 0.6,
+        "z": 1.2
+      },
+      "label": "📦 tailwindcss",
+      "style": {
+        "variant": "default",
+        "colorToken": "#4c1d95"
+      }
+    },
+    {
+      "id": "tlx2m236o2",
+      "type": "external",
+      "category": "architecture",
+      "position": {
+        "x": 4,
+        "y": -1,
+        "z": 20
+      },
+      "size": {
+        "x": 2.1,
+        "y": 0.6,
+        "z": 1.2
+      },
+      "label": "📦 xlsx",
+      "style": {
+        "variant": "default",
+        "colorToken": "#4c1d95"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "hhzgq3i80rv",
+      "from": {
+        "nodeId": "yuhuq5r846a"
+      },
+      "to": {
+        "nodeId": "jl19vkegazl"
+      },
+      "style": {
+        "dashed": false,
+        "arrow": true,
+        "curve": "straight"
+      }
+    },
+    {
+      "id": "e9nilw32yrd",
+      "from": {
+        "nodeId": "jl19vkegazl"
+      },
+      "to": {
+        "nodeId": "2xp2bdz08lc"
+      },
+      "style": {
+        "dashed": true,
+        "arrow": true,
+        "curve": "bezier"
+      }
+    },
+    {
+      "id": "kmdwh4y0xel",
+      "from": {
+        "nodeId": "jl19vkegazl"
+      },
+      "to": {
+        "nodeId": "8bp8wmljni6"
+      },
+      "style": {
+        "dashed": true,
+        "arrow": true,
+        "curve": "bezier"
+      }
+    },
+    {
+      "id": "udtlian20wd",
+      "from": {
+        "nodeId": "jl19vkegazl"
+      },
+      "to": {
+        "nodeId": "gu3d7la4f0m"
+      },
+      "style": {
+        "dashed": true,
+        "arrow": true,
+        "curve": "bezier"
+      }
+    },
+    {
+      "id": "mi7nakvrg1",
+      "from": {
+        "nodeId": "jl19vkegazl"
+      },
+      "to": {
+        "nodeId": "608pxvxa0qh"
+      },
+      "style": {
+        "dashed": true,
+        "arrow": true,
+        "curve": "bezier"
+      }
+    },
+    {
+      "id": "u33qjf54cy",
+      "from": {
+        "nodeId": "jl19vkegazl"
+      },
+      "to": {
+        "nodeId": "w05ihbmzju"
+      },
+      "style": {
+        "dashed": true,
+        "arrow": true,
+        "curve": "bezier"
+      }
+    },
+    {
+      "id": "ptk6pthkn",
+      "from": {
+        "nodeId": "jl19vkegazl"
+      },
+      "to": {
+        "nodeId": "pjbzt3yiwvq"
+      },
+      "style": {
+        "dashed": true,
+        "arrow": true,
+        "curve": "bezier"
+      }
+    },
+    {
+      "id": "9tn4ykytlq6",
+      "from": {
+        "nodeId": "jl19vkegazl"
+      },
+      "to": {
+        "nodeId": "ug2jffg3v1f"
+      },
+      "style": {
+        "dashed": true,
+        "arrow": true,
+        "curve": "bezier"
+      }
+    },
+    {
+      "id": "0dt3klo12ybq",
+      "from": {
+        "nodeId": "yuhuq5r846a"
+      },
+      "to": {
+        "nodeId": "yvyq71kbmah"
+      },
+      "style": {
+        "dashed": false,
+        "arrow": true,
+        "curve": "straight"
+      }
+    },
+    {
+      "id": "tfgbjt9mqc9",
+      "from": {
+        "nodeId": "yvyq71kbmah"
+      },
+      "to": {
+        "nodeId": "4u8nal910ti"
+      },
+      "style": {
+        "dashed": true,
+        "arrow": true,
+        "curve": "bezier"
+      }
+    },
+    {
+      "id": "x9unkzpickd",
+      "from": {
+        "nodeId": "yvyq71kbmah"
+      },
+      "to": {
+        "nodeId": "v0lq5l7lke"
+      },
+      "style": {
+        "dashed": true,
+        "arrow": true,
+        "curve": "bezier"
+      }
+    },
+    {
+      "id": "4pa62fbep29",
+      "from": {
+        "nodeId": "yvyq71kbmah"
+      },
+      "to": {
+        "nodeId": "dn09c2oq8k6"
+      },
+      "style": {
+        "dashed": true,
+        "arrow": true,
+        "curve": "bezier"
+      }
+    },
+    {
+      "id": "wg760uh7jw",
+      "from": {
+        "nodeId": "yuhuq5r846a"
+      },
+      "to": {
+        "nodeId": "wz1nwlzhezg"
+      },
+      "style": {
+        "dashed": false,
+        "arrow": true,
+        "curve": "straight"
+      }
+    },
+    {
+      "id": "fn0dp7gk3io",
+      "from": {
+        "nodeId": "yuhuq5r846a"
+      },
+      "to": {
+        "nodeId": "smvrjoo2v6"
+      },
+      "style": {
+        "dashed": false,
+        "arrow": true,
+        "curve": "straight"
+      }
+    },
+    {
+      "id": "p35ufaain6",
+      "from": {
+        "nodeId": "smvrjoo2v6"
+      },
+      "to": {
+        "nodeId": "v987ufzpbr"
+      },
+      "style": {
+        "dashed": true,
+        "arrow": true,
+        "curve": "bezier"
+      }
+    },
+    {
+      "id": "j917hrya0pr",
+      "from": {
+        "nodeId": "smvrjoo2v6"
+      },
+      "to": {
+        "nodeId": "ia93ixmp8y"
+      },
+      "style": {
+        "dashed": true,
+        "arrow": true,
+        "curve": "bezier"
+      }
+    },
+    {
+      "id": "a7udkrpii5n",
+      "from": {
+        "nodeId": "smvrjoo2v6"
+      },
+      "to": {
+        "nodeId": "5pmx2jqmoyo"
+      },
+      "style": {
+        "dashed": true,
+        "arrow": true,
+        "curve": "bezier"
+      }
+    },
+    {
+      "id": "uu4b44hn5vi",
+      "from": {
+        "nodeId": "smvrjoo2v6"
+      },
+      "to": {
+        "nodeId": "5emjidpot6w"
+      },
+      "style": {
+        "dashed": true,
+        "arrow": true,
+        "curve": "bezier"
+      }
+    },
+    {
+      "id": "tpccc7yys1",
+      "from": {
+        "nodeId": "smvrjoo2v6"
+      },
+      "to": {
+        "nodeId": "wyog1hl18v"
+      },
+      "style": {
+        "dashed": true,
+        "arrow": true,
+        "curve": "bezier"
+      }
+    },
+    {
+      "id": "8wr5wd9xw98",
+      "from": {
+        "nodeId": "smvrjoo2v6"
+      },
+      "to": {
+        "nodeId": "sv65ulxjlh"
+      },
+      "style": {
+        "dashed": true,
+        "arrow": true,
+        "curve": "bezier"
+      }
+    },
+    {
+      "id": "3x300oqnc4",
+      "from": {
+        "nodeId": "yuhuq5r846a"
+      },
+      "to": {
+        "nodeId": "rbkarx5tyv"
+      },
+      "style": {
+        "dashed": false,
+        "arrow": true,
+        "curve": "straight"
+      }
+    },
+    {
+      "id": "1xns21x0bv4",
+      "from": {
+        "nodeId": "5pmx2jqmoyo"
+      },
+      "to": {
+        "nodeId": "v987ufzpbr"
+      },
+      "label": "import",
+      "style": {
+        "dashed": true,
+        "arrow": true,
+        "curve": "bezier"
+      }
+    },
+    {
+      "id": "gl8sn6y5y8m",
+      "from": {
+        "nodeId": "yuhuq5r846a"
+      },
+      "to": {
+        "nodeId": "b3bmk8qh4o9"
+      },
+      "style": {
+        "dashed": true,
+        "arrow": true,
+        "curve": "straight"
+      },
+      "label": "dependency"
+    },
+    {
+      "id": "hi7ul17nvzj",
+      "from": {
+        "nodeId": "yuhuq5r846a"
+      },
+      "to": {
+        "nodeId": "x4qfm6xar0p"
+      },
+      "style": {
+        "dashed": true,
+        "arrow": true,
+        "curve": "straight"
+      },
+      "label": "dependency"
+    },
+    {
+      "id": "w7az5p7biys",
+      "from": {
+        "nodeId": "yuhuq5r846a"
+      },
+      "to": {
+        "nodeId": "91yx8xkhc6g"
+      },
+      "style": {
+        "dashed": true,
+        "arrow": true,
+        "curve": "straight"
+      },
+      "label": "dependency"
+    },
+    {
+      "id": "lf9bf4afgbh",
+      "from": {
+        "nodeId": "yuhuq5r846a"
+      },
+      "to": {
+        "nodeId": "eyur89sr77"
+      },
+      "style": {
+        "dashed": true,
+        "arrow": true,
+        "curve": "straight"
+      },
+      "label": "dependency"
+    },
+    {
+      "id": "1i9x2bzj69d",
+      "from": {
+        "nodeId": "yuhuq5r846a"
+      },
+      "to": {
+        "nodeId": "7m8ktc9n59h"
+      },
+      "style": {
+        "dashed": true,
+        "arrow": true,
+        "curve": "straight"
+      },
+      "label": "dependency"
+    },
+    {
+      "id": "d80pxb7hjm6",
+      "from": {
+        "nodeId": "yuhuq5r846a"
+      },
+      "to": {
+        "nodeId": "rslv7lew47"
+      },
+      "style": {
+        "dashed": true,
+        "arrow": true,
+        "curve": "straight"
+      },
+      "label": "dependency"
+    },
+    {
+      "id": "lb8znzszedm",
+      "from": {
+        "nodeId": "yuhuq5r846a"
+      },
+      "to": {
+        "nodeId": "23lqmn5x8y2"
+      },
+      "style": {
+        "dashed": true,
+        "arrow": true,
+        "curve": "straight"
+      },
+      "label": "dependency"
+    },
+    {
+      "id": "i134eawc3e",
+      "from": {
+        "nodeId": "yuhuq5r846a"
+      },
+      "to": {
+        "nodeId": "42qb6nsu021"
+      },
+      "style": {
+        "dashed": true,
+        "arrow": true,
+        "curve": "straight"
+      },
+      "label": "dependency"
+    },
+    {
+      "id": "f7e8qjs16nl",
+      "from": {
+        "nodeId": "yuhuq5r846a"
+      },
+      "to": {
+        "nodeId": "3xal1em0syj"
+      },
+      "style": {
+        "dashed": true,
+        "arrow": true,
+        "curve": "straight"
+      },
+      "label": "dependency"
+    },
+    {
+      "id": "awoxee12ror",
+      "from": {
+        "nodeId": "yuhuq5r846a"
+      },
+      "to": {
+        "nodeId": "tlx2m236o2"
+      },
+      "style": {
+        "dashed": true,
+        "arrow": true,
+        "curve": "straight"
+      },
+      "label": "dependency"
+    }
+  ],
+  "groups": [
+    {
+      "id": "dsv5z1p58nu",
+      "label": "📁 General",
+      "nodeIds": [
+        "jl19vkegazl",
+        "2xp2bdz08lc",
+        "608pxvxa0qh",
+        "w05ihbmzju",
+        "yvyq71kbmah",
+        "v0lq5l7lke",
+        "smvrjoo2v6",
+        "v987ufzpbr",
+        "5pmx2jqmoyo",
+        "sv65ulxjlh"
+      ],
+      "color": "#1e3a5f"
+    },
+    {
+      "id": "d7rhvk2mwmj",
+      "label": "⚙️ Configuración",
+      "nodeIds": [
+        "8bp8wmljni6",
+        "gu3d7la4f0m",
+        "pjbzt3yiwvq",
+        "ug2jffg3v1f",
+        "4u8nal910ti",
+        "dn09c2oq8k6",
+        "wz1nwlzhezg",
+        "rbkarx5tyv"
+      ],
+      "color": "#78350f"
+    },
+    {
+      "id": "mycftcn46cr",
+      "label": "🗄️ Persistencia",
+      "nodeIds": [
+        "ia93ixmp8y"
+      ],
+      "color": "#1e1b4b"
+    },
+    {
+      "id": "2zwvx9vu4qa",
+      "label": "🖥️ Presentación / UI",
+      "nodeIds": [
+        "5emjidpot6w"
+      ],
+      "color": "#4c1d95"
+    },
+    {
+      "id": "34j9f5iezju",
+      "label": "🔧 Utilidades",
+      "nodeIds": [
+        "wyog1hl18v"
+      ],
+      "color": "#1e3a5f"
+    },
+    {
+      "id": "3ub22jts1ct",
+      "label": "📦 Dependencias Externas",
+      "nodeIds": [
+        "b3bmk8qh4o9",
+        "x4qfm6xar0p",
+        "91yx8xkhc6g",
+        "eyur89sr77",
+        "7m8ktc9n59h",
+        "rslv7lew47",
+        "23lqmn5x8y2",
+        "42qb6nsu021",
+        "3xal1em0syj",
+        "tlx2m236o2"
+      ],
+      "color": "#4c1d95"
+    }
+  ],
+  "notes": []
+}
